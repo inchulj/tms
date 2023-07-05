@@ -1,4 +1,4 @@
-package com.javatodev.api.exception;
+package com.tms.exception;
 
 public class EntityNotFoundException extends RuntimeException {
     public EntityNotFoundException(String message) {
