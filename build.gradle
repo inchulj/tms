@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.javatodev'
+group = 'com.tms'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -23,6 +23,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.892'
+    implementation 'com.amazonaws.serverless:aws-serverless-java-container-springboot2:1.4'
     implementation 'com.github.derjust:spring-data-dynamodb:5.1.0'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
