@@ -5,7 +5,7 @@
 </a>
 
 <p align="left">
-Here I explain how we use both locally deployed DynamoDB instance and DynamoDB tables created on the AWS console. Additionally, I add steps to follow in creating DynamoDB tables in an AWS console, and how to access the tables from our spring boot REST API using Spring Data.
+Here I explain how we use both locally deployed DynamoDB instance and DynamoDB tables created on the AWS console. Additionally, I include steps to follow in creating DynamoDB tables in an AWS console, and how to access the tables from our spring boot REST API using Spring Data.
 
 Technologies to use,
 
