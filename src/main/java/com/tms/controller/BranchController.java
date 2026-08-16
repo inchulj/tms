@@ -72,6 +72,7 @@ public class BranchController
         }
         if (branches == null || branches.isEmpty()) {
             System.out.println("Branches not found");
+            System.out.println();
             return null;
         }
 
