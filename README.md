@@ -5,9 +5,9 @@
 </a>
 
 <p align="left">
-Here I’ll explain how we can use both locally deployed DynamoDB instance and DynamoDB tables created on the AWS console. Additionally, I’ll add steps to follow in creating DynamoDB tables in an AWS console, and how to access those from our spring boot REST API using Spring Data.
+Here I explain how we use both locally deployed DynamoDB instance and DynamoDB tables created on the AWS console. Additionally, I add steps to follow in creating DynamoDB tables in an AWS console, and how to access the tables from our spring boot REST API using Spring Data.
 
-Technologies going to use,
+Technologies to use,
 
 - Java 1.8
 - Spring Boot 2.3.4 RELEASE
@@ -19,14 +19,14 @@ Technologies going to use,
 - Gradle
 - IntelliJ Idea for IDE
 
-Main topics I’m going to explain here,
+Topics I explain here,
 
 - Running DynamoDB Locally
 - Adding Required Dependencies
 - Defining API Endpoints
-- Basic Architecture Inside The Project
+- Basic Architecture Inside the Project
 - Developing the API
-- Configure DynamoDB Connection For Spring Boot
+- Configure DynamoDB Connection for Spring Boot
 - Defining Model Classes
 - Defining Repository Layer
 - Adding Service Layer
